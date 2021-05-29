@@ -10,7 +10,7 @@ include(sketchup-sdk.cmake)
 set(SRC_FILES
         ${CMAKE_CURRENT_SOURCE_DIR}/inc/skp2stl/stl_exporter.h
         ${CMAKE_CURRENT_SOURCE_DIR}/src/stl_exporter.cc
-        apps/skp2stl-simple/main.cc)
+)
 
 add_library(skp2stl STATIC ${SRC_FILES})
 target_include_directories(
